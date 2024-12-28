@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const weatherroutes = require('./routers/weatherRoutes');
-const port = 5500;
+const port = 5050;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

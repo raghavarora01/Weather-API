@@ -1,5 +1,4 @@
-const weatherModel = require('../models/weatherModel');
-const configuration = require('../config');
+const configuration = require('../config.js');
 const axios = require('axios');
 const getWeather = async (req,res)=>{
     const cityname= req.body.cityname;
